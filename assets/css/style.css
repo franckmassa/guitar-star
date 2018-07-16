@@ -14,6 +14,7 @@ nav{
 .navbar{
   padding: 0;
   margin: 0;
+  background-color: orange;
 }
 .navbar-header{
   padding-top: 2px;
@@ -114,15 +115,16 @@ nav{
   border-style: none;
 }
 #Img1{
+  padding-left: 0px
   display: block;
   margin-left: auto;
   margin-right: auto;
     transform: transition .2s;
-    width: 100px;
+    width: 130px;
 }
 #foota{
-  background-color: #B35900;
+  background-color: #ff8c1a;
 }
 #iconstyle{
-  color: black;
+  color: black
 }
