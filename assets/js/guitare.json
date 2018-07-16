@@ -133,6 +133,9 @@
     "reference": "015",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
+<<<<<<< HEAD
+  }
+=======
   },
   {
     "name": "Yamaha Revstar RS502",
@@ -323,4 +326,5 @@
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique",
   },
+>>>>>>> c3256812991c8f858ba9a434a15f8adc35f0e608
   ]
