@@ -32,7 +32,7 @@ nav{
     font-weight: 200;
   }
   .nav-link:hover{
-    background-color: #b30000;
+    background-color: purple;
     color: black;
   }
 .dropdown-menu{
@@ -49,7 +49,7 @@ nav{
  }
  .dropdown-item:hover{
    color: black;
-   background-color: #072F54;
+   background-color: blue;
  }
 
  .ec1{
@@ -67,12 +67,6 @@ nav{
   border: none;
   box-shadow: none;
   border-radius: 0;
-}
-input[type=search]{
-  background-color: #333333;
-}
-input[type=search]:focus{
-  background-color: #333333;
 }
 
 @media all and (max-width: 1322px){
