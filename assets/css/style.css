@@ -36,7 +36,7 @@ nav{
     color: black;
   }
 .dropdown-menu{
-  background-color: #800000;
+  background-color: purple;
   border-right: 1px solid white;
 }
 .dropdown:hover .dropdown-menu {
@@ -49,7 +49,7 @@ nav{
  }
  .dropdown-item:hover{
    color: black;
-   background-color: blue;
+   background-color: grey;
  }
 
  .ec1{
@@ -119,18 +119,4 @@ nav{
   margin-right: auto;
     transform: transition .2s;
     width: 100px;
-}
-#imgManga{
-  margin-left: auto;
-  margin-right: auto;
-  transform: transition .2s;}
-
-  #imgManga:hover{
-    margin-left: auto;
-    margin-right: auto;
-  transition: transform .2s;
-}
-#carousel{
-  margin-left: auto;
-  margin-right: auto;
 }
