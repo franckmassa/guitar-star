@@ -32,11 +32,11 @@ nav{
     font-weight: 200;
   }
   .nav-link:hover{
-    background-color: #b30000;
+    background-color: purple;
     color: black;
   }
 .dropdown-menu{
-  background-color: #800000;
+  background-color: purple;
   border-right: 1px solid white;
 }
 .dropdown:hover .dropdown-menu {
@@ -49,7 +49,7 @@ nav{
  }
  .dropdown-item:hover{
    color: black;
-   background-color: #072F54;
+   background-color: grey;
  }
 
  .ec1{
@@ -67,12 +67,6 @@ nav{
   border: none;
   box-shadow: none;
   border-radius: 0;
-}
-input[type=search]{
-  background-color: #333333;
-}
-input[type=search]:focus{
-  background-color: #333333;
 }
 
 @media all and (max-width: 1322px){
@@ -125,18 +119,4 @@ input[type=search]:focus{
   margin-right: auto;
     transform: transition .2s;
     width: 100px;
-}
-#imgManga{
-  margin-left: auto;
-  margin-right: auto;
-  transform: transition .2s;}
-
-  #imgManga:hover{
-    margin-left: auto;
-    margin-right: auto;
-  transition: transform .2s;
-}
-#carousel{
-  margin-left: auto;
-  margin-right: auto;
 }
