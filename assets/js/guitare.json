@@ -1,10 +1,42 @@
 [
   {
-    "name": "",
-    "image": "",
-    "desc": "",
-    "price": ,
+    "name": "Yamaha Revstar RS502",
+    "image": "../guitare_electrique/377986.jpg",
+    "desc": "Corps acajou, Table en érable",
+    "price": "222 €",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitares Electriques"
   },
-]
+  {
+    "name": "Harley Benton CST-24T",
+    "image": "../guitare_electrique/402126.jpg",
+    "desc": "Série Deluxe, corps acajou",
+    "price": "222€",
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "Guitares Electriques"
+  },
+  {
+    "name": "Gibson SG Standard 2018 HC",
+    "image": "../guitare_electrique/419080.jpg",
+    "desc": "Corps en acajou, Manche en acajou",
+    "price": "1088 €",
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "Guitares Electriques"
+  },
+  {
+    "name": "PRS SE Custom 22 VSB",
+    "image": "guitare_electrique/419081.jpg",
+    "desc": "Corps en acajou",
+    "price": "699 €",
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "Guitares Electriques"
+  },
+  {
+    "name": "ESP LTD H3-100",
+    "image": "guitare_electrique/431808.jpg",
+    "desc": "Corps en acajou, Manche en érable",
+    "price": "1092 €",
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "Guitares Electriques"
+  },
+  ]
