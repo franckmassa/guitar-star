@@ -128,3 +128,11 @@ nav{
 #iconstyle{
   color: black
 }
+#imgAttribut{
+  width: 50%;
+  height: 65%;
+}
+#cardAttribut{
+  width: 100%;
+  height: 80%;
+}

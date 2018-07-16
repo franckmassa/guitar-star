@@ -1,7 +1,7 @@
 [
   {
     "name": "Yamaha Revstar RS502",
-    "image": "../guitare_electrique/377986.jpg",
+    "image": "assets/img/guitare_electrique/377986.jpg",
     "desc": "Corps acajou, Table en érable",
     "price": "222 €",
     "reference": "001",
@@ -10,7 +10,7 @@
   },
   {
     "name": "Harley Benton CST-24T",
-    "image": "../guitare_electrique/402126.jpg",
+    "image": "assets/img/guitare_electrique/402126.jpg",
     "desc": "Série Deluxe, corps acajou",
     "price": "222€",
     "reference": "002",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Gibson SG Standard 2018 HC",
-    "image": "../guitare_electrique/419080.jpg",
+    "image": "assets/img/guitare_electrique/419080.jpg",
     "desc": "Corps en acajou, Manche en acajou",
     "price": "1088 €",
     "reference": "003",
@@ -28,7 +28,7 @@
   },
   {
     "name": "PRS SE Custom 22 VSB",
-    "image": "guitare_electrique/419081.jpg",
+    "image": "assets/img/guitare_electrique/419081.jpg",
     "desc": "Corps en acajou",
     "price": "699 €",
     "reference": "004",
@@ -37,7 +37,7 @@
   },
   {
     "name": "ESP LTD H3-100",
-    "image": "guitare_electrique/431808.jpg",
+    "image": "assets/img/guitare_electrique/431808.jpg",
     "desc": "Corps en acajou, Manche en érable",
     "price": "1092 €",
     "reference": "005",
@@ -46,7 +46,7 @@
   },
   {
     "name": "Startone-cg-851",
-    "image": "Startone-cg-851.jpg",
+    "image": "assets/img/guitareClassique/Startone-cg-851.jpg",
     "desc": "Taille 1/8, corps en tilleul, manche en nato",
     "price": 33,
     "reference": "006",
@@ -54,8 +54,8 @@
     "category": "guitareClassique"
   },
   {
-    "name": "Yamaha GL1 Black",
-    "image": "Yamaha-gl1-black.jpg",
+    "name": "Yamaha GL1",
+    "image": "assets/img/guitareClassique/Yamaha-gl1-black.jpg",
     "desc": "6 cordes, table en épicéa, fond et éclisses en méranti",
     "price": 69,
     "reference": "007",
@@ -64,7 +64,7 @@
   },
   {
     "name": "La mancha Rubinito 1/8 CM/41",
-    "image": "La-mancha-rubinito.jpg",
+    "image": "assets/img/guitareClassique/La-mancha-rubinito.jpg",
     "desc": "Taille 1/8, table en cédre canadien massif, fond et éclisses en acajou",
     "price": 157,
     "reference": "008",
@@ -73,7 +73,7 @@
   },
   {
     "name": "Ortega R122-1/4",
-    "image": "Ortega.jpg",
+    "image": "assets/img/guitareClassique/Ortega.jpg",
     "desc": "Table en cédre, fond et éclisses en acajou, touche et chevalet en palissandre",
     "price": 155,
     "reference": "009",
@@ -82,7 +82,7 @@
   },
   {
     "name": "Hellweg junior SH I-48",
-    "image": "Hellweg-junior.jpg",
+    "image": "assets/img/guitareClassique/Hellweg-junior.jpg",
     "desc": "Taille 1/4, pour enfants entre 5 et 8 ans de taille entre 100 et 130 cm, table en épicéa massif",
     "price": 167,
     "reference": "010",
@@ -91,7 +91,7 @@
   },
   {
     "name": "Pro Arte GC-25II B-Stock",
-    "image": "Pro-arte.jpg",
+    "image": "assets/img/guitareClassique/Pro-arte.jpg",
     "desc": "Fabriquée en Europe, table en épicéa massif, fond et éclisses en acajou",
     "price": 151,
     "reference": "011",
@@ -100,7 +100,7 @@
   },
   {
     "name": "Cordoba requinto 1/2 Classical Guitar",
-    "image": "Cordoba-requinto.jpg",
+    "image": "assets/img/guitareClassique/Cordoba-requinto.jpg",
     "desc": "Taille 1/2, table en cédre canadien massif, fond et éclisses en placage d'acajou",
     "price": 299,
     "reference": "012",
@@ -109,7 +109,7 @@
   },
   {
     "name": "Hofner HC504-1/2",
-    "image": "Hofner-HC.jpg",
+    "image": "assets/img/guitareClassique/Hofner-HC.jpg",
     "desc": "Taille 1/2, pour enfants entre 6 et 9 ans, table en cédre massif",
     "price": 184,
     "reference": "013",
@@ -118,7 +118,7 @@
   },
   {
     "name": "Thomann Classica Comfort 1/2 B-Stock",
-    "image": "Thomann-comfort.jpg",
+    "image": "assets/img/guitareClassique/Thomann-comfort.jpg",
     "desc": "Taille 1/2, table en épicéa massif, accoudoir ergonomique",
     "price": 158,
     "reference": "014",
@@ -127,60 +127,12 @@
   },
   {
     "name": "Pro Natura Teleri",
-    "image": "Pro-natura.jpg",
+    "image": "assets/img/guitareClassique/Pro-natura.jpg",
     "desc": "Taille 7/8, fabriquée en Europe, table en cédre massif",
     "price": 179,
     "reference": "015",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
-<<<<<<< HEAD
-  }
-=======
-  },
-  {
-    "name": "Yamaha Revstar RS502",
-    "image": "377986.jpg",
-    "desc": "Corps acajou, Table en érable",
-    "price": "222 €",
-    "reference": "016",
-    "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electrique"
-  },
-  {
-    "name": "Harley Benton CST-24T",
-    "image": "402126.jpg",
-    "desc": "Série Deluxe, corps acajou",
-    "price": "222€",
-    "reference": "017",
-    "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electrique"
-  },
-  {
-    "name": "Gibson SG Standard 2018 HC",
-    "image": "419080.jpg",
-    "desc": "Corps en acajou, Manche en acajou",
-    "price": "1088 €",
-    "reference": "018",
-    "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electrique"
-  },
-  {
-    "name": "PRS SE Custom 22 VSB",
-    "image": "419081.jpg",
-    "desc": "Corps en acajou",
-    "price": "699 €",
-    "reference": "019",
-    "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electrique"
-  },
-  {
-    "name": "ESP LTD H3-100",
-    "image": "431808.jpg",
-    "desc": "Corps en acajou, Manche en érable",
-    "price": "1092 €",
-    "reference": "020",
-    "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electrique"
   },
   {
     "name": "Ibanez AE255BT-NT Baritone",
@@ -189,7 +141,7 @@
     "price": "571 €",
     "reference": "021",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Acoustique",
+    "category": "Guitare Acoustique"
   },
   {
     "name": "Furch Baritone 21-SW",
@@ -198,7 +150,7 @@
     "price": "1099 €",
     "reference": "022",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Acoustique",
+    "category": "Guitare Acoustique"
   },
   {
     "name": "Gibson SJ-200 Antique Natural 2018",
@@ -207,7 +159,7 @@
     "price": "3699 €",
     "reference": "023",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Acoustique",
+    "category": "Guitare Acoustique"
   },
   {
     "name": "Gibson Hummingbird Regal 2018",
@@ -216,7 +168,7 @@
     "price": "4490 €",
     "reference": "024",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Acoustique",
+    "category": "Guitare Acoustique"
   },
   {
     "name": "Gibson J-45 Vintage 2018",
@@ -225,7 +177,7 @@
     "price": "3299 €",
     "reference": "025",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Acoustique",
+    "category": "Guitare Acoustique"
   },
   {
     "name": "Harley Benton D-200CE-12NT",
@@ -234,7 +186,7 @@
     "price": "111 €",
     "reference": "026",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Acoustique",
+    "category": "Guitare Acoustique"
   },
   {
     "name": "Fender CC-60SCE Lh Nat",
@@ -243,7 +195,7 @@
     "price": "245 €",
     "reference": "027",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Acoustique",
+    "category": "Guitare Acoustique"
   },
   {
     "name": "Gretsch G5022CWFE-12 Falcon Rancher",
@@ -252,7 +204,7 @@
     "price": "576 €",
     "reference": "028",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Acoustique",
+    "category": "Guitare Acoustique"
   },
   {
     "name": "Takamine EF341SC",
@@ -261,7 +213,7 @@
     "price": "999 €",
     "reference": "029",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electro-Acoustique",
+    "category": "Guitare Electro-Acoustique"
   },
   {
     "name": "Epiphone Dove Pro",
@@ -270,7 +222,7 @@
     "price": "299 €",
     "reference": "031",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electro-Acoustique",
+    "category": "Guitare Electro-Acoustique"
   },
   {
     "name": "Epiphone Masterbilt Century Deluxe VS",
@@ -279,7 +231,7 @@
     "price": "398 €",
     "reference": "032",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electro-Acoustique",
+    "category": "Guitare Electro-Acoustique"
   },
   {
     "name": "Gibson Roy Smeck Stage Deluxe",
@@ -288,7 +240,7 @@
     "price": "3666 €",
     "reference": "033",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electro-Acoustique",
+    "category": "Guitare Electro-Acoustique"
   },
   {
     "name": "Gibson LG-2 American Eagle 2018",
@@ -297,7 +249,7 @@
     "price": "1650 €",
     "reference": "034",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electro-Acoustique",
+    "category": "Guitare Electro-Acoustique"
   },
   {
     "name": "Framus Legacy Series FF 14 S BK CE",
@@ -306,7 +258,7 @@
     "price": "399 €",
     "reference": "035",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electro-Acoustique",
+    "category": "Guitare Electro-Acoustique"
   },
   {
     "name": "Ovation 2771AX-1 Standard Balladeer",
@@ -315,7 +267,7 @@
     "price": "749 €",
     "reference": "036",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electro-Acoustique",
+    "category": "Guitare Electro-Acoustique"
   },
   {
     "name": "Applause AE44IIP-TBKF",
@@ -324,7 +276,6 @@
     "price": "333 €",
     "reference": "037",
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": "Guitare Electro-Acoustique",
-  },
->>>>>>> c3256812991c8f858ba9a434a15f8adc35f0e608
+    "category": "Guitare Electro-Acoustique"
+  }
   ]
