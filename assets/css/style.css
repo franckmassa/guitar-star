@@ -32,11 +32,11 @@ nav{
     font-weight: 200;
   }
   .nav-link:hover{
-    background-color: purple;
+    background-color: #b35900;
     color: black;
   }
 .dropdown-menu{
-  background-color: purple;
+  background-color: #b35900;
   border-right: 1px solid white;
 }
 .dropdown:hover .dropdown-menu {
@@ -49,7 +49,7 @@ nav{
  }
  .dropdown-item:hover{
    color: black;
-   background-color: grey;
+   background-color: #ff8c1a;
  }
 
  .ec1{
