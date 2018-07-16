@@ -5,6 +5,6 @@
     "desc": "",
     "price": ,
     "stars": "Math.trunc(Math.random() * 5)+1",
-    "category": ""
+    "category": "Guitares Electriques"
   },
 ]
