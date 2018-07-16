@@ -1,11 +1,8 @@
 <!DOCTYPE html>
-<html ng-app="guitarApp">
+<html ng-app="guitareApp">
 <head>
   <title>Guitare-star</title>
   <meta charset="utf-8" />
-  <!--lien angular et json-->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
-  <script src="assets/js/guitare.json"></script>
   <!-- CDN BOOTSTRAP -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
   integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
@@ -64,8 +61,8 @@
                 </li>
             </div>
           </ul>
+          <button type="button" class="btn grey" id="myBtn"><span class="fas fa-shopping-cart fa-2x"></span></button>
         </nav>
-        <button type="button" class="btn grey" id="myBtn"><span class="fas fa-shopping-cart fa-2x"></span></button>
       </div>
         <div class="modal fade" id="myModal" role="dialog">
 <div class="modal-dialog">
@@ -88,37 +85,6 @@
       </div>
     </div>
   </div>
-<!--Tableau guitare-->
-  <div ng-controller="guitarCtrl">
-    <div ng-repeat="guitar in guitars">
-
-      {{name}}
-
-
-
-    </div>
-      </div>
-
-
-
-    <div class="col-lg-3 col-md-6 col-12">
-    <div class="card w-100">
-    <img class="card-img-top" src="assets/img/'+ element.image+ '" alt="' + element.name + '">
-    <div class="card-body">
-    <h4 class="card-title">' + {{name}} + '</h4>
-    + stars
-    <p class="card-text" data-toggle="tooltip" data-placement="bottom" title="'+ element.desc + '">'+ {{desc}} + '</p>
-    <p>Prix: ' + {{price}} + '€</p>
-    <a class="btn bg-color-6" id="addShop' + index + '">Ajouter au panier</a>
-    </div>
-    </div>
-    </div>
-
-
-
-
-  </div>
-
   <footer class="page-footer">
         <div id="foota">
           <div class="container">
@@ -221,4 +187,4 @@
         <!-- Copyright -->
       </footer>
     </body>
-    </html>
+</html>
