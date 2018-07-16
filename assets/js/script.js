@@ -3,3 +3,5 @@ $(document).ready(function(){
       $("#myModal").modal();
   });
 });
+
+var guitareApp = angular.module('guitareApp', []);
