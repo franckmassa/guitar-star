@@ -129,10 +129,11 @@ nav{
   color: black
 }
 #imgAttribut{
-  width: 50%;
-  height: 65%;
+  width: 100%;
+  height: 71%;
 }
 #cardAttribut{
   width: 100%;
-  height: 80%;
+  height: 100%;
+}
 }
