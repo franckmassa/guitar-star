@@ -1,5 +1,5 @@
 body{
-  background-color: black;
+  background-color: white;
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
 }
@@ -20,10 +20,10 @@ nav{
   height: 20px;
 }
 .nav-link{
-  color: white;}
+  color: black;}
   .nav-link{
     padding: 30px 0;
-    color:white;
+    color:black;
     font-size: 25px;
   }
   .navbar-nav{
@@ -37,7 +37,7 @@ nav{
   }
 .dropdown-menu{
   background-color: #800000;
-  border-right: 1px solid black;
+  border-right: 1px solid white;
 }
 .dropdown:hover .dropdown-menu {
   display: block;
@@ -45,10 +45,10 @@ nav{
   border-radius:0;
  }
  .dropdown-item{
-   color: white;
+   color: black;
  }
  .dropdown-item:hover{
-   color: white;
+   color: black;
    background-color: #072F54;
  }
 
@@ -96,7 +96,7 @@ input[type=search]:focus{
   position: absolute;
 }
 #myBtn{right: 0;
-  color:white;
+  color:black;
   background-color: inherit;
   border-style: none;
 }
@@ -106,7 +106,7 @@ input[type=search]:focus{
   margin: auto;
 }
 .card-text{
-  color:white;
+  color:black;
   text-align: center;
 }
 #n1{
@@ -124,6 +124,7 @@ input[type=search]:focus{
   margin-left: auto;
   margin-right: auto;
     transform: transition .2s;
+    width: 100px;
 }
 #imgManga{
   margin-left: auto;
