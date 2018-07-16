@@ -39,4 +39,84 @@
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitares Electriques"
   },
+  {
+    "name": "Startone-cg-851",
+    "image": "Startone-cg-851.jpg",
+    "desc": "Taille 1/8, corps en tilleul, manche en nato",
+    "price": 33,
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "guitareClassique"
+  },
+  {
+    "name": "Yamaha GL1 Black",
+    "image": "Yamaha-gl1-black.jpg",
+    "desc": "6 cordes, table en épicéa, fond et éclisses en méranti",
+    "price": 69,
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "guitareClassique"
+  },
+  {
+    "name": "La mancha Rubinito 1/8 CM/41",
+    "image": "La-mancha-rubinito.jpg",
+    "desc": "Taille 1/8, table en cédre canadien massif, fond et éclisses en acajou",
+    "price": 157,
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "guitareClassique"
+  },
+  {
+    "name": "Ortega R122-1/4",
+    "image": "Ortega.jpg",
+    "desc": "Table en cédre, fond et éclisses en acajou, touche et chevalet en palissandre",
+    "price": 155,
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "guitareClassique"
+  },
+  {
+    "name": "Hellweg junior SH I-48",
+    "image": "Hellweg-junior.jpg",
+    "desc": "Taille 1/4, pour enfants entre 5 et 8 ans de taille entre 100 et 130 cm, table en épicéa massif",
+    "price": 167,
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "guitareClassique"
+  },
+  {
+    "name": "Pro Arte GC-25II B-Stock",
+    "image": "Pro-arte.jpg",
+    "desc": "Fabriquée en Europe, table en épicéa massif, fond et éclisses en acajou",
+    "price": 151,
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "guitareClassique"
+  },
+  {
+    "name": "Cordoba requinto 1/2 Classical Guitar",
+    "image": "Cordoba-requinto.jpg",
+    "desc": "Taille 1/2, table en cédre canadien massif, fond et éclisses en placage d'acajou",
+    "price": 299,
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "guitareClassique"
+  },
+  {
+    "name": "Hofner HC504-1/2",
+    "image": "Hofner-HC.jpg",
+    "desc": "Taille 1/2, pour enfants entre 6 et 9 ans, table en cédre massif",
+    "price": 184,
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "guitareClassique"
+  },
+  {
+    "name": "Thomann Classica Comfort 1/2 B-Stock",
+    "image": "Thomann-comfort.jpg",
+    "desc": "Taille 1/2, table en épicéa massif, accoudoir ergonomique",
+    "price": 158,
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "guitareClassique"
+  },
+  {
+    "name": "Pro Natura Teleri",
+    "image": "Pro-natura.jpg",
+    "desc": "Taille 7/8, fabriquée en Europe, table en cédre massif",
+    "price": 179,
+    "stars": "Math.trunc(Math.random() * 5)+1",
+    "category": "guitareClassique"
+  },
   ]
