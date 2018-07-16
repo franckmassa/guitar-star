@@ -12,8 +12,6 @@ nav{
 }
 /* Navbar style */
 .navbar{
-  font-size: 30px;
-font-family: 'Kaushan Script', cursive;
   padding: 0;
   margin: 0;
   background-color: orange;
@@ -82,7 +80,7 @@ font-family: 'Kaushan Script', cursive;
     padding: 5px;
   }
   .nav-link:hover{
-    background-color: #B35900;
+    background-color: #b30000;
 
   }
   .blocLienFooter{
@@ -97,7 +95,11 @@ font-family: 'Kaushan Script', cursive;
   background-color: inherit;
   border-style: none;
 }
-
+.imgcoque{
+  padding-top: 10px;
+  display: flex;
+  margin: auto;
+}
 .card-text{
   color:black;
   text-align: center;
@@ -113,7 +115,7 @@ font-family: 'Kaushan Script', cursive;
   border-style: none;
 }
 #Img1{
-  padding-left: 0px;
+  padding-left: 0px
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -126,6 +128,11 @@ font-family: 'Kaushan Script', cursive;
 #iconstyle{
   color: black
 }
-footer{font-family: 'Patrick Hand', cursive;
-font-size: 20px;
+#imgAttribut{
+  width: 50%;
+  height: 65%;
+}
+#cardAttribut{
+  width: 100%;
+  height: 80%;
 }

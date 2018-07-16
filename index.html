@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="guitarApp">
+<html ng-app="guitarApp" ng-controller="guitarCtrl">
 <head>
   <title>Guitare-star</title>
   <meta charset="utf-8" />
@@ -13,8 +13,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
   integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   <!-- GOOGLE FONT -->
-<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <!-- ICONE DE PAGE -->
   <link rel="icon" href="assets/img/guitare.jpg" />
@@ -46,7 +45,7 @@
                     Guitares accoustiques & Electro-accoustiques
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Guitares Accoustiques</a>
+                    <a class="dropdown-item" href="#">Guitares accoustiques</a>
                     <a class="dropdown-item" href="#">Guitares Electro-accoustiques</a>
                   </div>
                 </li>
@@ -85,35 +84,29 @@
       </div>
     </div>
   </div>
-<!--Tableau guitare-->
-  <div ng-controller="guitarCtrl">
-    <div ng-repeat="guitar in guitare">
-<img src="{{guitar.image}}" alt="photoguitare" />
+  <!--Tableau guitare-->
+<!--  <div>
+    <div ng-repeat="guitar in guitars">
       {{guitar.name}}
-
-
-
+      {{guitar.price}}
+      <img src={{guitar.image}} alt="..."/>
     </div>
+  </div> -->
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-3 col-md-6 col-12" ng-repeat="guitar in guitars">
+      <div class="card w-100" id="cardAttribut">
+        <img class="card-img-top" src={{guitar.image}} alt="..." id="imgAttribut">
+        <div class="card-body">
+          <h4 class="card-title">{{guitar.name}}</h4>
+          <p class="card-text" data-toggle="tooltip" data-placement="bottom" title="!!!">{{guitar.desc}}</p>
+          <p>Prix:{{guitar.price}}€</p>
+          <div class="text-center"><a class="btn bg-warning text-center" id="addShop">Ajouter au panier</a></div>
+        </div>
       </div>
-
-
-
-    <div class="col-lg-3 col-md-6 col-12">
-    <div class="card w-100">
-    <img class="card-img-top" src="assets/img/'+ element.image+ '" alt="' + element.name + '">
-    <div class="card-body">
-    <h4 class="card-title">' + {{name}} + '</h4>
-    + stars
-    <p class="card-text" data-toggle="tooltip" data-placement="bottom" title="'+ element.desc + '">'+ {{desc}} + '</p>
-    <p>Prix: ' + {{price}} + '€</p>
-    <a class="btn bg-color-6" id="addShop' + index + '">Ajouter au panier</a>
     </div>
-    </div>
-    </div>
-
-
-
-
+  </div>
+</div>
 
   <footer class="page-footer">
     <div id="foota">
