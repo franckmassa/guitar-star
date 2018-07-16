@@ -118,5 +118,5 @@
     "price": 179,
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
-  },
+  }
   ]
