@@ -30,7 +30,7 @@ nav{
     font-size: 25px;
   }
   .navbar-nav{
-    padding-left: 5em;
+    padding-left: 0em;
     font-size: 1.1em;
     font-weight: 200;
   }
@@ -73,8 +73,12 @@ nav{
 }
 
 @media all and (max-width: 1322px){
+  .navbar{
+    display: block;
+  }
 
   .navbar-header{
+    display: none;
     padding: 0;
     height: 100px;
   }
@@ -92,16 +96,7 @@ nav{
 .nv2{
   position: absolute;
 }
-#myBtn{right: 0;
-  color:black;
-  background-color: inherit;
-  border-style: none;
-}
-.imgcoque{
-  padding-top: 10px;
-  display: flex;
-  margin: auto;
-}
+
 .card-text{
   color:black;
   text-align: center;
@@ -117,7 +112,7 @@ nav{
   border-style: none;
 }
 #Img1{
-  padding-left: 0px
+  padding-left: 0px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -136,7 +131,7 @@ nav{
 }
 #cardAttribut{
   width: 100%;
-  height: 98%;
+  height: 95%;
 }
 footer{font-family: 'Patrick Hand', cursive;
 font-size: 20px;
