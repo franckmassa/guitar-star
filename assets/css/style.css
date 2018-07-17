@@ -12,6 +12,8 @@ nav{
 }
 /* Navbar style */
 .navbar{
+  font-size: 30px;
+  font-family: 'Kaushan Script', cursive;
   padding: 0;
   margin: 0;
   background-color: orange;
@@ -134,5 +136,8 @@ nav{
 }
 #cardAttribut{
   width: 100%;
-  height: 80%;
+  height: 95%;
+}
+footer{font-family: 'Patrick Hand', cursive;
+font-size: 20px;
 }
