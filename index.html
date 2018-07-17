@@ -27,7 +27,7 @@
     <div class="ec1">
       <div class="row test3 d-flex justify-content-center">
         <!--NavBar -->
-        <div class="col-lg-12">
+        <div class="col-lg-12 col-md-12 col-12">
           <nav class="navbar navbar-expand-md ">
             <img src="assets/img/guitare.jpg" class="img-circle" id="Img1" />
             <div class="navbar-header"></div>
@@ -85,14 +85,7 @@
       </div>
     </div>
   </div>
-  <!--Tableau guitare-->
-<!--  <div>
-    <div ng-repeat="guitar in guitars">
-      {{guitar.name}}
-      {{guitar.price}}
-      <img src={{guitar.image}} alt="..."/>
-    </div>
-  </div> -->
+  <!-- Carte guitare-->
   <div class="container-fluid">
   <div class="row mt-5">
     <div class="col-lg-3 col-md-6 col-12" ng-repeat="guitar in guitars| filter:{category : itemsCategories}">
@@ -101,14 +94,14 @@
         <div class="card-body">
           <h4 class="card-title">{{guitar.name}}</h4>
           <p class="card-text" data-toggle="tooltip" data-placement="bottom" title="!!!">{{guitar.desc}}</p>
-          <p>Prix:{{guitar.price}}€</p>
+          <p>Prix:{{guitar.price}}</p>
           <div class="text-center"><a class="btn bg-warning text-center" id="addShop">Ajouter au panier</a></div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
+<!-- Fin de la carte -->
   <footer class="page-footer">
     <div id="foota">
       <div class="container">
