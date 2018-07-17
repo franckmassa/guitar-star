@@ -6,12 +6,10 @@ var guitarApp = angular.module('guitarApp', []);
   $scope.changeFilter = function(newFilter){
       $scope.itemsCategories = newFilter;
   }
-  //déclaration des variables
-  $scope.quantityProduct = 1;
-  //les données vont dedans
+  //récupération des données
   $scope.basket = {};
   $scope.quantity = {};
-  //fonction qui ajoute au panier
+  //fonction qui ajoute les produits dans le panier
   $scope.addProduct = function(index, param){
     $scope.basket[index] = param;
     //condition qui ajoute au panier qd pas dedans ou qui incremente la quantité
@@ -20,5 +18,13 @@ var guitarApp = angular.module('guitarApp', []);
     }else{
       $scope.quantity[index] = 1;
     }
+  };
+  //fonction incrémentant la quantité dans le panier
+  $scope.qPlus = function(index){
+    $scope.quantity[index] += 1;
+  };
+  //fonction décrémentant la quantité dans le panier
+  $scope.qMinus = function(index){
+    $scope.quantity[index] -= 1;
   };
 });
