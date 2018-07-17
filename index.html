@@ -85,16 +85,16 @@
                     <div class="A_totalPriceProduct text-left font-weight-bold col-xs-12 col-sm-12 col-md-4 col-lg-2">Sous-total</div>
                   </div>
                   <div>
-                    <div class="row product px-3 pb-4" ng-repeat="item in basket.items">
+                    <div class="row product px-3 pb-4" ng-repeat="(index,item) in basket">
                       <div class="nameProduct text-left col-xs-12 col-sm-12 col-md-10 col-lg-5" ng-model="item.name">{{item.name}}</div>
                       <div class="refProduct text-center col-xs-12 col-sm-12 col-md-2 col-lg-1" ng-model="item.reference">ref.{{item.reference}}</div>
                       <div class="priceProduct text-center col-xs-12 col-sm-12 col-md-4 col-lg-2" ng-model="item.price">{{item.price}} €</div>
                       <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-2">
-                        <button type="button" name="buttonQuantity" ng-click="quantity = quantity - 1" ng-init="quantity=1">-</button>
-                        <span id="quantityProduct">{{quantity}}</span>
-                        <button type="button" name="buttonQuantity" ng-click="quantity = quantity + 1" ng-init="quantity=1">+</button>
+                        <button type="button" name="buttonQuantity" ng-click="" >-</button>
+                        <span id="quantityProduct">{{quantity[index]}}</span>
+                        <button type="button" name="buttonQuantity" ng-click="" >+</button>
                       </div>
-                      <div class="subtotal text-center col-xs-12 col-sm-12 col-md-4 col-lg-2">{{item.price * quantity}} €</div>
+                      <div class="subtotal text-center col-xs-12 col-sm-12 col-md-4 col-lg-2">{{item.price * quantity[index]}} €</div>
                     </div>
                   </div>
                 </div>
@@ -112,14 +112,14 @@
   <!-- Carte guitare-->
   <div class="container-fluid">
   <div class="row mt-5">
-    <div class="col-lg-3 col-md-6 col-12" ng-repeat="guitar in guitars| filter:{category : itemsCategories}">
+    <div class="col-lg-3 col-md-6 col-12" ng-repeat="(index, guitar) in guitars| filter:{category : itemsCategories}">
       <div class="card w-75" id="cardAttribut">
         <img class="card-img-top" src={{guitar.image}} alt="..." id="imgAttribut">
         <div class="card-body">
           <h4 class="card-title">{{guitar.name}}</h4>
           <p class="card-text" data-toggle="tooltip" data-placement="bottom" title="!!!">{{guitar.desc}}</p>
           <p>Prix:{{guitar.price}}</p>
-          <div class="text-center"><a class="btn bg-warning text-center" ng-click="addProduct()" id="addShop">Ajouter au panier</a></div>
+          <div class="text-center"><a class="btn bg-warning text-center" ng-click="addProduct(index, guitar)" id="addShop">Ajouter au panier</a></div>
         </div>
       </div>
     </div>

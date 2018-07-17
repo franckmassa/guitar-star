@@ -1,5 +1,5 @@
 var guitarApp = angular.module('guitarApp', []);
- guitarApp.controller('guitarCtrl', function($scope, $http, $rootScope){
+ guitarApp.controller('guitarCtrl', function($scope, $http){
    $http.get('assets/js/guitare.json').then(function(response){
      $scope.guitars = response.data;
  });
@@ -8,14 +8,17 @@ var guitarApp = angular.module('guitarApp', []);
   }
   //déclaration des variables
   $scope.quantityProduct = 1;
-  //arnaque
-  $scope.addProduct = function(){
-    $rootScope.basket = {
-      items: [{
-        name: 'Gibson SG Standard 2018 HC',
-        reference: '003',
-        price: 1088
-      }]
-    };
+  //les données vont dedans
+  $scope.basket = {};
+  $scope.quantity = {};
+  //fonction qui ajoute au panier
+  $scope.addProduct = function(index, param){
+    $scope.basket[index] = param;
+    //condition qui ajoute au panier qd pas dedans ou qui incremente la quantité
+    if(index in $scope.quantity){
+      $scope.quantity[index] += 1;
+    }else{
+      $scope.quantity[index] = 1;
+    }
   };
 });

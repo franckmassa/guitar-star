@@ -3,7 +3,7 @@
     "name": "Yamaha Revstar RS502",
     "image": "assets/img/guitare_electrique/377986.jpg",
     "desc": "Corps acajou, Table en érable",
-    "price": "222€",
+    "price": 222,
     "reference": "001",
     "category": "Guitares Electriques"
   },
@@ -11,7 +11,7 @@
     "name": "Harley Benton CST-24T",
     "image": "assets/img/guitare_electrique/365537.jpg",
     "desc": "Série Deluxe, corps acajou",
-    "price": "222€",
+    "price": 222,
     "reference": "002",
     "category": "Guitares Electriques"
   },
@@ -19,7 +19,7 @@
     "name": "Gibson SG Standard 2018 HC",
     "image": "assets/img/guitare_electrique/362691.jpg",
     "desc": "Corps en acajou, Manche en acajou",
-    "price": "1088€",
+    "price": 1088,
     "reference": "003",
     "category": "Guitares Electriques"
   },
@@ -27,7 +27,7 @@
     "name": "PRS SE Custom 22 VSB",
     "image": "assets/img/guitare_electrique/413002.jpg",
     "desc": "Corps en acajou",
-    "price": "699€",
+    "price": 699,
     "reference": "004",
     "category": "Guitares Electriques"
   },
@@ -35,7 +35,7 @@
     "name": "ESP LTD H3-100",
     "image": "assets/img/guitare_electrique/362690.jpg",
     "desc": "Corps en acajou, Manche en érable",
-    "price": "1092€",
+    "price": 1092,
     "reference": "005",
     "category": "Guitares Electriques"
   },
@@ -43,7 +43,7 @@
     "name": "Startone-cg-851",
     "image": "assets/img/guitareClassique/Startone-cg-851.jpg",
     "desc": "Taille 1/8, corps en tilleul, manche en nato",
-    "price": "33€",
+    "price":33,
     "reference": "006",
     "category": "guitareClassique"
   },
@@ -51,7 +51,7 @@
     "name": "Yamaha GL1",
     "image": "assets/img/guitareClassique/Yamaha-gl1-black.jpg",
     "desc": "6 cordes, table en épicéa, fond et éclisses en méranti",
-    "price": "69€",
+    "price":69,
     "reference": "007",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
@@ -60,7 +60,7 @@
     "name": "La mancha Rubinito 1/8 CM/41",
     "image": "assets/img/guitareClassique/La-mancha-rubinito.jpg",
     "desc": "Taille 1/8, table en cédre canadien massif, fond et éclisses en acajou",
-    "price": "157€",
+    "price":157,
     "reference": "008",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
@@ -69,7 +69,7 @@
     "name": "Ortega R122-1/4",
     "image": "assets/img/guitareClassique/Ortega.jpg",
     "desc": "Table en cédre, fond et éclisses en acajou, touche et chevalet en palissandre",
-    "price": "155€",
+    "price":155,
     "reference": "009",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
@@ -78,7 +78,7 @@
     "name": "Hellweg junior SH I-48",
     "image": "assets/img/guitareClassique/Hellweg-junior.jpg",
     "desc": "Taille 1/4, pour enfants entre 5 et 8 ans de taille entre 100 et 130 cm, table en épicéa massif",
-    "price": "167€",
+    "price":167,
     "reference": "010",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
@@ -87,7 +87,7 @@
     "name": "Pro Arte GC-25II B-Stock",
     "image": "assets/img/guitareClassique/Pro-arte.jpg",
     "desc": "Fabriquée en Europe, table en épicéa massif, fond et éclisses en acajou",
-    "price": "151€",
+    "price":151,
     "reference": "011",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
@@ -96,7 +96,7 @@
     "name": "Cordoba requinto 1/2 Classical Guitar",
     "image": "assets/img/guitareClassique/Cordoba-requinto.jpg",
     "desc": "Taille 1/2, table en cédre canadien massif, fond et éclisses en placage d'acajou",
-    "price": "299€",
+    "price":299,
     "reference": "012",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
@@ -105,7 +105,7 @@
     "name": "Hofner HC504-1/2",
     "image": "assets/img/guitareClassique/Hofner-HC.jpg",
     "desc": "Taille 1/2, pour enfants entre 6 et 9 ans, table en cédre massif",
-    "price": "184€",
+    "price":184,
     "reference": "013",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
@@ -114,7 +114,7 @@
     "name": "Thomann Classica Comfort 1/2 B-Stock",
     "image": "assets/img/guitareClassique/Thomann-comfort.jpg",
     "desc": "Taille 1/2, table en épicéa massif, accoudoir ergonomique",
-    "price": "158€",
+    "price":158,
     "reference": "014",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
@@ -123,7 +123,7 @@
     "name": "Pro Natura Teleri",
     "image": "assets/img/guitareClassique/Pro-natura.jpg",
     "desc": "Taille 7/8, fabriquée en Europe, table en cédre massif",
-    "price": "179€",
+    "price":179,
     "reference": "015",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
@@ -132,7 +132,7 @@
     "name": "Ibanez AE255BT-NT Baritone",
     "image": "assets/img/guitaresAcoustiques/428943.jpg",
     "desc": "Forme Baritone, Corps AE, Table en épicéa massif",
-    "price": "571€ ",
+    "price":571,
     "reference": "021",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
@@ -141,7 +141,7 @@
     "name": "Furch Baritone 21-SW",
     "image": "assets/img/guitaresAcoustiques/380816.jpg",
     "desc": "Table en épicéa de Sitka massif, Fond et éclisses en noyer massif, Manche en acajou",
-    "price": "1099€ ",
+    "price": 1099,
     "reference": "022",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
@@ -150,7 +150,7 @@
     "name": "Gibson SJ-200 Antique Natural 2018",
     "image": "assets/img/guitaresAcoustiques/gibsonSJ200.jpg",
     "desc": "Jumbo, Table en épicéa de Sitka massif, Barrage en X sculpté (scallopé)",
-    "price": "3699€",
+    "price": 3699,
     "reference": "023",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
@@ -159,7 +159,7 @@
     "name": "Gibson Hummingbird Regal 2018",
     "image": "assets/img/guitaresAcoustiques/421762.jpg",
     "desc": "Round Shoulder Dreadnought, Table en épicéa de Sitka massif, Barrage en X sculpté (scallopé)",
-    "price": "4490€ ",
+    "price": 4490,
     "reference": "024",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
@@ -168,7 +168,7 @@
     "name": "Gibson J-45 Vintage 2018",
     "image": "assets/img/guitaresAcoustiques/gibsonJ45.jpg",
     "desc": "Round Shoulder Dreadnought, Table en épinette rouge des Adirondacks massif usagé thermiquement, Barrage en X sculpté (scallopé)",
-    "price": "3299€",
+    "price": 3299,
     "reference": "025",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
@@ -177,7 +177,7 @@
     "name": "Harley Benton D-200CE-12NT",
     "image": "assets/img/guitaresAcoustiques/harleyBentonD200.jpg",
     "desc": "12 cordes, Dreadnaught, Pan coupé",
-    "price": "111€ ",
+    "price": 111,
     "reference": "026",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
@@ -186,7 +186,7 @@
     "name": "Fender CC-60SCE Lh Nat",
     "image": "assets/img/guitaresAcoustiques/fenderCC.jpg",
     "desc": "Forme Classic Design Concert, Table en épicéa massif, Barrage en X sculpté (scallopé)",
-    "price": "245€ ",
+    "price": 245,
     "reference": "027",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
@@ -195,7 +195,7 @@
     "name": "Gretsch G5022CWFE-12 Falcon Rancher",
     "image": "assets/img/guitaresAcoustiques/gretsch.jpg",
     "desc": "12 cordes, Jumbo, Pan coupé",
-    "price": "576€ ",
+    "price": 576,
     "reference": "028",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
@@ -204,7 +204,7 @@
     "name": "Takamine EF341SC",
     "image": "assets/img/guitaresElectroAcoustiques/takamineEF341.jpg",
     "desc": "Modèle Bruce Springsteen, Dreadnought, Pan coupé",
-    "price": "999€ ",
+    "price": 999,
     "reference": "029",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
@@ -213,7 +213,7 @@
     "name": "Epiphone Dove Pro",
     "image": "assets/img/guitaresElectroAcoustiques/epiphoneDovePro.jpg",
     "desc": "Table en épicéa massif, Fond et éclisses en érable, Manche en érable",
-    "price": "299€ ",
+    "price": 299,
     "reference": "031",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
@@ -222,7 +222,7 @@
     "name": "Epiphone Masterbilt Century Deluxe VS",
     "image": "assets/img/guitaresElectroAcoustiques/epiphoneMasterbilt.jpg",
     "desc": "Table en épicéa massif, Fond et éclisses en érable, Manche 5 pièces collé en acajou (Entandrophragma cylindricum)/érable",
-    "price": "398€ ",
+    "price": 398,
     "reference": "032",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
@@ -231,7 +231,7 @@
     "name": "Gibson Roy Smeck Stage Deluxe",
     "image": "assets/img/guitaresElectroAcoustiques/gibsonRoySmeck.jpg",
     "desc": "Signature Roy Smeck, Table en épicéa de Sitka massif, Fond et éclisses en acajou massif",
-    "price": "3666€ ",
+    "price": 3666,
     "reference": "033",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
@@ -240,7 +240,7 @@
     "name": "Gibson LG-2 American Eagle 2018",
     "image": "assets/img/guitaresElectroAcoustiques/gibsonLG2.jpg",
     "desc": "Table en épicéa de Sitka massif, Fond et éclisses en acajou, Manche en acajou",
-    "price": "1650€ ",
+    "price": 1650,
     "reference": "034",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
@@ -249,7 +249,7 @@
     "name": "Framus Legacy Series FF 14 S BK CE",
     "image": "assets/img/guitaresElectroAcoustiques/framus.jpg",
     "desc": "Forme Folk, Pan coupé, Table en épicéa de Sitka massif",
-    "price": "399€ ",
+    "price": 399,
     "reference": "035",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
@@ -258,7 +258,7 @@
     "name": "Ovation 2771AX-1 Standard Balladeer",
     "image": "assets/img/guitaresElectroAcoustiques/ovation.jpg",
     "desc": "Pan coupé, Table en épicéa de Sitka massif A, Barrage en X sculpté (scallopé)",
-    "price": "749€ ",
+    "price": 749,
     "reference": "036",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
@@ -267,7 +267,7 @@
     "name": "Applause AE44IIP-TBKF",
     "image": "assets/img/guitaresElectroAcoustiques/applause.jpg",
     "desc": "Forme Ovation, Corps Mid-Depth Cutaway en Lyrachord, Table en épicéa sélectionné",
-    "price": "333€",
+    "price": 333,
     "reference": "037",
     "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
