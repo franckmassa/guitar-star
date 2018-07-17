@@ -43,21 +43,21 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link" href="#" >
-                    Guitares acoustiques & Electro-acoustiques
+                    Guitares acoustiques & électro-acoustiques
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" id="guitacc" href="#" ng-click = "changeFilter('Guitare Acoustique')">Guitares acoustiques</a>
-                    <a class="dropdown-item" id="guiteacc" href="#" ng-click = "changeFilter('Guitare Electro-Acoustique')">Guitares Electro-acoustiques</a>
+                    <a class="dropdown-item" id="guiteacc" href="#" ng-click = "changeFilter('Guitare Electro-Acoustique')">Guitares électro-acoustiques</a>
                   </div>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link" href="#" ng-click = "changeFilter('Guitares Electriques')">
-                    Guitares Electriques
+                    Guitares électriques
                   </a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link"  href="#" ng-click = "changeFilter('guitareClassique')">
-                    Guitares clasiques
+                    Guitares classiques
                   </a>
                 </li>
               </ul>
@@ -71,8 +71,8 @@
         <div class="modal fade" id="basket">
           <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
-              <div class="modal-header">
-                <h2>Panier</h2>
+              <div class="modal-header bg-warning">
+                <h2>Bienvenue dans votre panier</h2>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
               </div>
               <div class="modal-body">
@@ -87,7 +87,7 @@
                   <div>
                     <div class="row product px-3 pb-4" ng-repeat="(index,item) in basket">
                       <div class="nameProduct text-left col-xs-12 col-sm-12 col-md-10 col-lg-5" ng-model="item.name">{{item.name}}</div>
-                      <div class="refProduct text-center col-xs-12 col-sm-12 col-md-2 col-lg-1" ng-model="item.reference">ref.{{item.reference}}</div>
+                      <div class="refProduct text-center col-xs-12 col-sm-12 col-md-2 col-lg-1" ng-model="item.reference">R{{item.reference}}</div>
                       <div class="priceProduct text-center col-xs-12 col-sm-12 col-md-4 col-lg-2" ng-model="item.price">{{item.price}} €</div>
                       <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-2">
                         <button type="button" name="buttonQuantity" ng-click="qMinus(index)" >-</button>
@@ -115,7 +115,7 @@
   </div>
   <!-- Carte guitare-->
   <div class="container-fluid">
-  <div class="row mt-5">
+  <div class="row ml-5 mt-5">
     <div class="col-lg-3 col-md-6 col-12" ng-repeat="(index, guitar) in guitars| filter:{category : itemsCategories}">
       <div class="card w-75" id="cardAttribut">
         <img class="card-img-top" src={{guitar.image}} alt="..." id="imgAttribut">
