@@ -53,7 +53,6 @@
     "desc": "6 cordes, table en épicéa, fond et éclisses en méranti",
     "price":69,
     "reference": "007",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
   },
   {
@@ -62,7 +61,6 @@
     "desc": "Taille 1/8, table en cédre canadien massif, fond et éclisses en acajou",
     "price":157,
     "reference": "008",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
   },
   {
@@ -71,7 +69,6 @@
     "desc": "Table en cédre, fond et éclisses en acajou, touche et chevalet en palissandre",
     "price":155,
     "reference": "009",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
   },
   {
@@ -80,7 +77,6 @@
     "desc": "Taille 1/4, pour enfants entre 5 et 8 ans de taille entre 100 et 130 cm, table en épicéa massif",
     "price":167,
     "reference": "010",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
   },
   {
@@ -89,7 +85,6 @@
     "desc": "Fabriquée en Europe, table en épicéa massif, fond et éclisses en acajou",
     "price":151,
     "reference": "011",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
   },
   {
@@ -98,7 +93,6 @@
     "desc": "Taille 1/2, table en cédre canadien massif, fond et éclisses en placage d'acajou",
     "price":299,
     "reference": "012",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
   },
   {
@@ -107,7 +101,6 @@
     "desc": "Taille 1/2, pour enfants entre 6 et 9 ans, table en cédre massif",
     "price":184,
     "reference": "013",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
   },
   {
@@ -116,7 +109,6 @@
     "desc": "Taille 1/2, table en épicéa massif, accoudoir ergonomique",
     "price":158,
     "reference": "014",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
   },
   {
@@ -125,7 +117,6 @@
     "desc": "Taille 7/8, fabriquée en Europe, table en cédre massif",
     "price":179,
     "reference": "015",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "guitareClassique"
   },
   {
@@ -134,7 +125,6 @@
     "desc": "Forme Baritone, Corps AE, Table en épicéa massif",
     "price":571,
     "reference": "021",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
   },
   {
@@ -143,7 +133,6 @@
     "desc": "Table en épicéa de Sitka massif, Fond et éclisses en noyer massif, Manche en acajou",
     "price": 1099,
     "reference": "022",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
   },
   {
@@ -152,7 +141,6 @@
     "desc": "Jumbo, Table en épicéa de Sitka massif, Barrage en X sculpté (scallopé)",
     "price": 3699,
     "reference": "023",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
   },
   {
@@ -161,7 +149,6 @@
     "desc": "Round Shoulder Dreadnought, Table en épicéa de Sitka massif, Barrage en X sculpté (scallopé)",
     "price": 4490,
     "reference": "024",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
   },
   {
@@ -170,7 +157,6 @@
     "desc": "Round Shoulder Dreadnought, Table en épinette rouge des Adirondacks massif usagé thermiquement, Barrage en X sculpté (scallopé)",
     "price": 3299,
     "reference": "025",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
   },
   {
@@ -179,7 +165,6 @@
     "desc": "12 cordes, Dreadnaught, Pan coupé",
     "price": 111,
     "reference": "026",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
   },
   {
@@ -188,7 +173,6 @@
     "desc": "Forme Classic Design Concert, Table en épicéa massif, Barrage en X sculpté (scallopé)",
     "price": 245,
     "reference": "027",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
   },
   {
@@ -197,7 +181,6 @@
     "desc": "12 cordes, Jumbo, Pan coupé",
     "price": 576,
     "reference": "028",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Acoustique"
   },
   {
@@ -206,7 +189,6 @@
     "desc": "Modèle Bruce Springsteen, Dreadnought, Pan coupé",
     "price": 999,
     "reference": "029",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
   },
   {
@@ -215,7 +197,6 @@
     "desc": "Table en épicéa massif, Fond et éclisses en érable, Manche en érable",
     "price": 299,
     "reference": "031",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
   },
   {
@@ -224,7 +205,6 @@
     "desc": "Table en épicéa massif, Fond et éclisses en érable, Manche 5 pièces collé en acajou (Entandrophragma cylindricum)/érable",
     "price": 398,
     "reference": "032",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
   },
   {
@@ -233,7 +213,6 @@
     "desc": "Signature Roy Smeck, Table en épicéa de Sitka massif, Fond et éclisses en acajou massif",
     "price": 3666,
     "reference": "033",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
   },
   {
@@ -242,7 +221,6 @@
     "desc": "Table en épicéa de Sitka massif, Fond et éclisses en acajou, Manche en acajou",
     "price": 1650,
     "reference": "034",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
   },
   {
@@ -251,7 +229,6 @@
     "desc": "Forme Folk, Pan coupé, Table en épicéa de Sitka massif",
     "price": 399,
     "reference": "035",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
   },
   {
@@ -260,7 +237,6 @@
     "desc": "Pan coupé, Table en épicéa de Sitka massif A, Barrage en X sculpté (scallopé)",
     "price": 749,
     "reference": "036",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
   },
   {
@@ -269,7 +245,6 @@
     "desc": "Forme Ovation, Corps Mid-Depth Cutaway en Lyrachord, Table en épicéa sélectionné",
     "price": 333,
     "reference": "037",
-    "stars": "Math.trunc(Math.random() * 5)+1",
     "category": "Guitare Electro-Acoustique"
   }
-  ]
+]
