@@ -62,26 +62,50 @@
                 </li>
               </ul>
             </div>
-            <button type="button" class="btn grey" id="myBtn"><span class="fas fa-shopping-cart fa-2x">{{ total | number : 2 }}€ ({{totalQantity}})</span></button>
+            <a href="#basket" data-toggle="modal" id="showBasket">
+              <i class="fas fa-shopping-cart fa-2x text-body"></i>
+            </a>
           </nav>
         </div>
-        <div class="modal fade" id="myModal" role="dialog">
-          <div class="modal-dialog">
-            <!-- Modal content-->
+        <!-- fenetre modale -->
+        <div class="modal fade" id="basket">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
               <div class="modal-header">
-
-                <h4 class="modal-title">Panier</h4>
+                <h2>Panier</h2>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
               </div>
               <div class="modal-body">
-                <p>Bienvenue dans votre panier.</p>
+                <div class="contentBasket">
+                  <div class="row px-3 pb-2">
+                    <div class="A_nameProduct text-left font-weight-bold col-xs-12 col-sm-12 col-md-10 col-lg-5">Produit</div>
+                    <div class="A_refProduct text-center font-weight-bold col-xs-12 col-sm-12 col-md-2 col-lg-1">Réf.</div>
+                    <div class="A_priceProduct text-center font-weight-bold col-xs-12 col-sm-12 col-md-4 col-lg-2">Prix unitaire</div>
+                    <div class="A_quantity text-center font-weight-bold col-xs-12 col-sm-12 col-md-4 col-lg-2">Quantité</div>
+                    <div class="A_totalPriceProduct text-left font-weight-bold col-xs-12 col-sm-12 col-md-4 col-lg-2">Sous-total</div>
+                  </div>
+                  <div>
+                    <div class="row product px-3 pb-4" ng-repeat="item in basket.items">
+                      <div class="nameProduct text-left col-xs-12 col-sm-12 col-md-10 col-lg-5" ng-model="item.name">{{item.name}}</div>
+                      <div class="refProduct text-center col-xs-12 col-sm-12 col-md-2 col-lg-1" ng-model="item.reference">ref.{{item.reference}}</div>
+                      <div class="priceProduct text-center col-xs-12 col-sm-12 col-md-4 col-lg-2" ng-model="item.price">{{item.price}} €</div>
+                      <div class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-2">
+                        <button type="button" name="buttonQuantity" ng-click="quantity = quantity - 1" ng-init="quantity=1">-</button>
+                        <span id="quantityProduct">{{quantity}}</span>
+                        <button type="button" name="buttonQuantity" ng-click="quantity = quantity + 1" ng-init="quantity=1">+</button>
+                      </div>
+                      <div class="subtotal text-center col-xs-12 col-sm-12 col-md-4 col-lg-2">{{item.price * quantity}} €</div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <div class="totalSection">{{total}} €</div>
               </div>
             </div>
           </div>
         </div>
+        <!-- fin fenetre modale -->
       </div>
     </div>
   </div>
