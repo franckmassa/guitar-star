@@ -27,4 +27,9 @@ var guitarApp = angular.module('guitarApp', []);
   $scope.qMinus = function(index){
     $scope.quantity[index] -= 1;
   };
+  $scope.addToShop = function(){
+    alert('Votre paiement est accepté');
+    $scope.basket = {};
+    $scope.quantity = {};
+  };
 });
