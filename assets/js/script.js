@@ -1,8 +1,8 @@
 var guitarApp = angular.module('guitarApp', []);
- guitarApp.controller('guitarCtrl', ['$scope', '$http', '$rootScope', function($scope, $http, $rootScope){
+ guitarApp.controller('guitarCtrl', function($scope, $http, $rootScope){
    $http.get('assets/js/guitare.json').then(function(response){
      $scope.guitars = response.data;
-   });
+ });
   $scope.changeFilter = function(newFilter){
       $scope.itemsCategories = newFilter;
   }
@@ -17,4 +17,5 @@ var guitarApp = angular.module('guitarApp', []);
         price: 1088
       }]
     };
+  };
 });
