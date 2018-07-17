@@ -94,7 +94,10 @@
                         <span id="quantityProduct">{{quantity[index]}}</span>
                         <button type="button" name="buttonQuantity" ng-click="qPlus(index)" >+</button>
                       </div>
-                      <div class="subtotal text-center col-xs-12 col-sm-12 col-md-4 col-lg-2">{{item.price * quantity[index]}} €</div>
+                      <div class="subtotal text-center col-xs-12 col-sm-12 col-md-4 col-lg-2">
+                        {{item.price * quantity[index]}} €
+                        <i class="fas fa-times text-secondary" ng-click="removeItem(index)"></i>
+                      </div>
                     </div>
                   </div>
                 </div>

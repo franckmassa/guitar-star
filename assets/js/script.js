@@ -9,6 +9,8 @@ var guitarApp = angular.module('guitarApp', []);
   //récupération des données
   $scope.basket = {};
   $scope.quantity = {};
+  $scope.price = {};
+  $scope.total = 0;
   //fonction qui ajoute les produits dans le panier
   $scope.addProduct = function(index, param){
     $scope.basket[index] = param;
@@ -18,15 +20,35 @@ var guitarApp = angular.module('guitarApp', []);
     }else{
       $scope.quantity[index] = 1;
     }
+    //calcul le total
+    $scope.ttl();
+  };
+  //supprime le produit
+  $scope.removeItem = function(index){
+    delete $scope.basket[index];
+    //calcul le total
+    $scope.ttl();
   };
   //fonction incrémentant la quantité dans le panier
   $scope.qPlus = function(index){
     $scope.quantity[index] += 1;
+    //calcul le total
+    $scope.ttl();
   };
   //fonction décrémentant la quantité dans le panier
   $scope.qMinus = function(index){
     $scope.quantity[index] -= 1;
+    //calcul le total
+    $scope.ttl();
   };
+  //fonction qui calcul le total
+  $scope.ttl = function(){
+    $scope.total = 0;
+    for(var key in $scope.quantity){
+      $scope.total += $scope.quantity[key] * $scope.basket[key].price;
+    }
+  };
+
   $scope.addToShop = function(){
     alert('Votre paiement est accepté');
     $scope.basket = {};
