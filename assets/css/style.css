@@ -136,3 +136,7 @@ nav{
 footer{font-family: 'Patrick Hand', cursive;
 font-size: 20px;
 }
+#marginstyle{
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
